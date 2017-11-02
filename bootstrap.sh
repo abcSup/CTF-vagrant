@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install -y git build-essential
 sudo apt-get install -y gdb gdb-multiarch
-sudo apt-get install -y tmux
+sudo apt-get install -y tmux unzip
 
 # python
 sudo apt-get -y install python2.7 python-pip python-dev git libssl-dev libffi-dev

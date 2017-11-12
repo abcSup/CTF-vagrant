@@ -35,3 +35,11 @@ cd binwalk
 sudo python3 setup.py install
 cd
 
+# kaitai
+sudo apt-get install default-jre
+echo "deb https://dl.bintray.com/kaitai-io/debian jessie main" | sudo tee /etc/apt/sources.list.d/kaitai.list
+sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv 379CE192D401AB61
+sudo apt-get update
+sudo apt-get install kaitai-struct-compiler
+sudo apt-get install ruby
+gem install kaitai-struct-visualizer

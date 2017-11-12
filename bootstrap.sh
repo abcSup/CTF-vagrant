@@ -42,4 +42,4 @@ sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv 379CE192D401AB
 sudo apt-get update
 sudo apt-get install kaitai-struct-compiler
 sudo apt-get install ruby
-gem install kaitai-struct-visualizer
+sudo gem install kaitai-struct-visualizer
